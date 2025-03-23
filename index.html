@@ -1,9 +1,10 @@
 <html>
     <head>
         <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+        <script src="comic.js"></script>
     </head>
     <body>
-        <a-scene>
+        <a-scene background="color:#d19cff">
         <a-assets>
             <img src="CW/page1.jpg" id="adara">
             <img src="CW/page2.jpg" id="ava">
@@ -12,7 +13,7 @@
             <img src="CW/page5.jpg" id="luna">
         </a-assets>
         <a-camera wasd-contols-enabled="false"></a-camera>
-        <a-entity layer="src:#adara; height:10; width:7;"></a-entity>
+        <a-entity layer="src:#adara; height:10; width:7"  caspian></a-entity>
     </a-scene>
     </body>
 </html>
